@@ -61,7 +61,7 @@ static BOOL areGUIDSEqual (CFUUIDRef g1, CFUUIDRef g2) {
 @implementation Entity
 
 
-+ entityWithEntity:(Entity*)anObject;
++ (instancetype)entityWithEntity:(Entity*)anObject;
 {
     if ([anObject isKindOfClass:[self class]])
         return anObject;
@@ -76,7 +76,7 @@ static BOOL areGUIDSEqual (CFUUIDRef g1, CFUUIDRef g2) {
     return self;
 }
 
-- initWithEntity:(Entity*)anObject;
+- (instancetype)initWithEntity:(Entity*)anObject;
 {
     _internal= anObject->_internal;
     [_internal includeType:[Type typeForClass:[self class]]];

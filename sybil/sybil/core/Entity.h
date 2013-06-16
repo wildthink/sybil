@@ -16,8 +16,8 @@
 @property (readonly) NSString* sguid;
 @property (readonly, nonatomic) NSOrderedSet *types;
 
-
-- initWithEntity:(Entity*)aObject;
++ (instancetype)entityWithEntity:(Entity*)anObject;
+- (instancetype)initWithEntity:(Entity*)aObject;
 
 - (Type*)preferredType;
 
