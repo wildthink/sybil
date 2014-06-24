@@ -17,32 +17,6 @@
 @end
 
 
-static BOOL _WTIsProtocol (id type) {
-    NSString *name = NSStringFromProtocol(type);
-    return (name != nil);
-}
-
-static BOOL _WTIsClass (id type) {
-    NSString *name = NSStringFromClass(type);
-    return (name != nil);
-}
-
-static Class WTAsClass (id type) {
-    
-    Class t_class;
-    
-    if ([type isKindOfClass:[NSString class]]) {
-        t_class = NSClassFromString(type);
-    } else if ([type isKindOfClass:[Type class]]) {
-        t_class = ((Type*)type).implClass;
-    } else if (_WTIsClass(type)){
-        t_class = (Class)type;
-    } else {
-        t_class = Nil;
-    }
-    return t_class;
-}
-
 static BOOL areGUIDSEqual (CFUUIDRef g1, CFUUIDRef g2) {
     CFUUIDBytes gb1 = CFUUIDGetUUIDBytes(g1);
     CFUUIDBytes gb2 = CFUUIDGetUUIDBytes(g2);
@@ -66,7 +40,7 @@ static BOOL areGUIDSEqual (CFUUIDRef g1, CFUUIDRef g2) {
     if ([anObject isKindOfClass:[self class]])
         return anObject;
     // else
-    id ent = [[self alloc] initWithEntity:anObject];
+    Entity *ent = [(Entity*)[self alloc] initWithEntity:anObject];
     return ent;
 }
 

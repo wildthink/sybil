@@ -15,18 +15,18 @@
 		9618984718BECA2700DD4F0F /* sybil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9618982A18BECA2700DD4F0F /* sybil.framework */; };
 		9618984D18BECA2700DD4F0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9618984B18BECA2700DD4F0F /* InfoPlist.strings */; };
 		9618984F18BECA2700DD4F0F /* sybilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9618984E18BECA2700DD4F0F /* sybilTests.m */; };
-		9618986518BECA8C00DD4F0F /* Entity+DynamicAccessors.h in Headers */ = {isa = PBXBuildFile; fileRef = 9618985918BECA8B00DD4F0F /* Entity+DynamicAccessors.h */; };
-		9618986618BECA8C00DD4F0F /* Entity+DynamicAccessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 9618985A18BECA8B00DD4F0F /* Entity+DynamicAccessors.m */; };
-		9618986718BECA8C00DD4F0F /* Entity.h in Headers */ = {isa = PBXBuildFile; fileRef = 9618985B18BECA8B00DD4F0F /* Entity.h */; };
-		9618986818BECA8C00DD4F0F /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9618985C18BECA8B00DD4F0F /* Entity.m */; };
-		9618986918BECA8C00DD4F0F /* entity_i.h in Headers */ = {isa = PBXBuildFile; fileRef = 9618985D18BECA8B00DD4F0F /* entity_i.h */; };
-		9618986A18BECA8C00DD4F0F /* entity_i.m in Sources */ = {isa = PBXBuildFile; fileRef = 9618985E18BECA8B00DD4F0F /* entity_i.m */; };
-		9618986B18BECA8C00DD4F0F /* Type.h in Headers */ = {isa = PBXBuildFile; fileRef = 9618985F18BECA8B00DD4F0F /* Type.h */; };
-		9618986C18BECA8C00DD4F0F /* Type.m in Sources */ = {isa = PBXBuildFile; fileRef = 9618986018BECA8B00DD4F0F /* Type.m */; };
 		9618986D18BECA8C00DD4F0F /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = 9618986118BECA8B00DD4F0F /* Person.h */; };
 		9618986E18BECA8C00DD4F0F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9618986218BECA8B00DD4F0F /* Person.m */; };
 		9618986F18BECA8C00DD4F0F /* Topic.h in Headers */ = {isa = PBXBuildFile; fileRef = 9618986318BECA8B00DD4F0F /* Topic.h */; };
 		9618987018BECA8C00DD4F0F /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = 9618986418BECA8C00DD4F0F /* Topic.m */; };
+		96BF6F6E1958FF0900A0357B /* entity_i.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BF6F661958FF0900A0357B /* entity_i.h */; };
+		96BF6F6F1958FF0900A0357B /* entity_i.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BF6F671958FF0900A0357B /* entity_i.m */; };
+		96BF6F701958FF0900A0357B /* Entity.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BF6F681958FF0900A0357B /* Entity.h */; };
+		96BF6F711958FF0900A0357B /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BF6F691958FF0900A0357B /* Entity.m */; };
+		96BF6F721958FF0900A0357B /* Entity+DynamicAccessors.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BF6F6A1958FF0900A0357B /* Entity+DynamicAccessors.h */; };
+		96BF6F731958FF0900A0357B /* Entity+DynamicAccessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BF6F6B1958FF0900A0357B /* Entity+DynamicAccessors.m */; };
+		96BF6F741958FF0900A0357B /* Type.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BF6F6C1958FF0900A0357B /* Type.h */; };
+		96BF6F751958FF0900A0357B /* Type.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BF6F6D1958FF0900A0357B /* Type.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,14 +55,6 @@
 		9618984A18BECA2700DD4F0F /* sybilTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sybilTests-Info.plist"; sourceTree = "<group>"; };
 		9618984C18BECA2700DD4F0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9618984E18BECA2700DD4F0F /* sybilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sybilTests.m; sourceTree = "<group>"; };
-		9618985918BECA8B00DD4F0F /* Entity+DynamicAccessors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Entity+DynamicAccessors.h"; sourceTree = "<group>"; };
-		9618985A18BECA8B00DD4F0F /* Entity+DynamicAccessors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Entity+DynamicAccessors.m"; sourceTree = "<group>"; };
-		9618985B18BECA8B00DD4F0F /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
-		9618985C18BECA8B00DD4F0F /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
-		9618985D18BECA8B00DD4F0F /* entity_i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entity_i.h; sourceTree = "<group>"; };
-		9618985E18BECA8B00DD4F0F /* entity_i.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = entity_i.m; sourceTree = "<group>"; };
-		9618985F18BECA8B00DD4F0F /* Type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type.h; sourceTree = "<group>"; };
-		9618986018BECA8B00DD4F0F /* Type.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type.m; sourceTree = "<group>"; };
 		9618986118BECA8B00DD4F0F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = sybil/Person.h; sourceTree = "<group>"; };
 		9618986218BECA8B00DD4F0F /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = sybil/Person.m; sourceTree = "<group>"; };
 		9618986318BECA8B00DD4F0F /* Topic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Topic.h; path = sybil/Topic.h; sourceTree = "<group>"; };
@@ -70,6 +62,14 @@
 		9618987118BECACA00DD4F0F /* COPYING.LGPL */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING.LGPL; sourceTree = "<group>"; };
 		9618987218BECACA00DD4F0F /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9618987318BECACA00DD4F0F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		96BF6F661958FF0900A0357B /* entity_i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = entity_i.h; path = Classes/entity_i.h; sourceTree = "<group>"; };
+		96BF6F671958FF0900A0357B /* entity_i.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = entity_i.m; path = Classes/entity_i.m; sourceTree = "<group>"; };
+		96BF6F681958FF0900A0357B /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Entity.h; path = Classes/Entity.h; sourceTree = "<group>"; };
+		96BF6F691958FF0900A0357B /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Entity.m; path = Classes/Entity.m; sourceTree = "<group>"; };
+		96BF6F6A1958FF0900A0357B /* Entity+DynamicAccessors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Entity+DynamicAccessors.h"; path = "Classes/Entity+DynamicAccessors.h"; sourceTree = "<group>"; };
+		96BF6F6B1958FF0900A0357B /* Entity+DynamicAccessors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Entity+DynamicAccessors.m"; path = "Classes/Entity+DynamicAccessors.m"; sourceTree = "<group>"; };
+		96BF6F6C1958FF0900A0357B /* Type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Type.h; path = Classes/Type.h; sourceTree = "<group>"; };
+		96BF6F6D1958FF0900A0357B /* Type.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Type.m; path = Classes/Type.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +97,10 @@
 		9618982018BECA2700DD4F0F = {
 			isa = PBXGroup;
 			children = (
+				96BF6F761958FF1400A0357B /* Classes */,
 				9618987118BECACA00DD4F0F /* COPYING.LGPL */,
 				9618987218BECACA00DD4F0F /* LICENSE */,
 				9618987318BECACA00DD4F0F /* README.md */,
-				9618985818BECA8B00DD4F0F /* core */,
 				9618986118BECA8B00DD4F0F /* Person.h */,
 				9618986218BECA8B00DD4F0F /* Person.m */,
 				9618986318BECA8B00DD4F0F /* Topic.h */,
@@ -179,20 +179,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9618985818BECA8B00DD4F0F /* core */ = {
+		96BF6F761958FF1400A0357B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9618985918BECA8B00DD4F0F /* Entity+DynamicAccessors.h */,
-				9618985A18BECA8B00DD4F0F /* Entity+DynamicAccessors.m */,
-				9618985B18BECA8B00DD4F0F /* Entity.h */,
-				9618985C18BECA8B00DD4F0F /* Entity.m */,
-				9618985D18BECA8B00DD4F0F /* entity_i.h */,
-				9618985E18BECA8B00DD4F0F /* entity_i.m */,
-				9618985F18BECA8B00DD4F0F /* Type.h */,
-				9618986018BECA8B00DD4F0F /* Type.m */,
+				96BF6F661958FF0900A0357B /* entity_i.h */,
+				96BF6F671958FF0900A0357B /* entity_i.m */,
+				96BF6F681958FF0900A0357B /* Entity.h */,
+				96BF6F691958FF0900A0357B /* Entity.m */,
+				96BF6F6A1958FF0900A0357B /* Entity+DynamicAccessors.h */,
+				96BF6F6B1958FF0900A0357B /* Entity+DynamicAccessors.m */,
+				96BF6F6C1958FF0900A0357B /* Type.h */,
+				96BF6F6D1958FF0900A0357B /* Type.m */,
 			);
-			name = core;
-			path = sybil/core;
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,12 +201,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96BF6F741958FF0900A0357B /* Type.h in Headers */,
 				9618986F18BECA8C00DD4F0F /* Topic.h in Headers */,
-				9618986518BECA8C00DD4F0F /* Entity+DynamicAccessors.h in Headers */,
-				9618986918BECA8C00DD4F0F /* entity_i.h in Headers */,
+				96BF6F6E1958FF0900A0357B /* entity_i.h in Headers */,
 				9618986D18BECA8C00DD4F0F /* Person.h in Headers */,
-				9618986B18BECA8C00DD4F0F /* Type.h in Headers */,
-				9618986718BECA8C00DD4F0F /* Entity.h in Headers */,
+				96BF6F721958FF0900A0357B /* Entity+DynamicAccessors.h in Headers */,
+				96BF6F701958FF0900A0357B /* Entity.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,13 +305,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96BF6F711958FF0900A0357B /* Entity.m in Sources */,
 				9618986E18BECA8C00DD4F0F /* Person.m in Sources */,
-				9618986C18BECA8C00DD4F0F /* Type.m in Sources */,
-				9618986818BECA8C00DD4F0F /* Entity.m in Sources */,
 				9618983C18BECA2700DD4F0F /* sybil.m in Sources */,
-				9618986A18BECA8C00DD4F0F /* entity_i.m in Sources */,
+				96BF6F731958FF0900A0357B /* Entity+DynamicAccessors.m in Sources */,
+				96BF6F6F1958FF0900A0357B /* entity_i.m in Sources */,
+				96BF6F751958FF0900A0357B /* Type.m in Sources */,
 				9618987018BECA8C00DD4F0F /* Topic.m in Sources */,
-				9618986618BECA8C00DD4F0F /* Entity+DynamicAccessors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +510,7 @@
 				9618985418BECA2700DD4F0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9618985518BECA2700DD4F0F /* Build configuration list for PBXNativeTarget "sybilTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +519,7 @@
 				9618985718BECA2700DD4F0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

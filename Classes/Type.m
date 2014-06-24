@@ -139,7 +139,7 @@ static NSMutableDictionary *type_cache = nil;
     if ([self.implClass isSubclassOfClass:aType.implClass])
         return YES;
     
-    for (Type *t in self.includedTypes) {
+    for (Type *aType in self.includedTypes) {
         if ([aType doesIncludeType:aType]) {
              return YES;
         }
@@ -148,7 +148,7 @@ static NSMutableDictionary *type_cache = nil;
 }
 
 - instantiateEntity:(Entity*)ent {
-    return [[self.implClass alloc] initWithEntity:ent];
+    return [(Entity*)[self.implClass alloc] initWithEntity:ent];
 }
 
 - (NSString*)description {

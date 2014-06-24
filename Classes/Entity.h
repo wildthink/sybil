@@ -29,6 +29,7 @@
 
 -(BOOL)is_a:type;
 
+
 /** nil if no conforming type Class is found
  */
 - becomeTypeConformingToProtocol:(Protocol*)proto;
@@ -41,7 +42,7 @@
 
 /*
  This does NOT compare properties. It only confirms that self and otherEntity
- are semantically the same.
+ are semantically the same. The default implementation is to compare guids.
  */
 - (BOOL)is:(Entity*)otherEntity;
 
