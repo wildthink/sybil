@@ -9,10 +9,7 @@ Pod::Spec.new do |s|
   s.version          = File.read('VERSION')
   s.summary          = "Sybil is an entity-oriented multi-type Objective-C framework"
   s.description      = <<-DESC
-                       An optional longer description of sybil
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       Sybil is an entity-oriented multi-type Objective-C framework.
                        DESC
   s.homepage         = "http://github.com/wildthink/sybil"
 #s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
